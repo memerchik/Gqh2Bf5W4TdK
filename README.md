@@ -1,60 +1,8 @@
-# Journal of Digital History Author's Repository
+# Abstract
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/C2DH/template_repo_JDH/main?filepath=author_guideline_template.ipynb)
 
-This repository serves as a resource for authors submitting articles to the [Journal of Digital History](https://journalofdigitalhistory.org).
-It contains a Jupyter notebook that provides an example and a simple structure that can be used to write articles for the journal.
-The repository also includes a `preflight`github action that can be automatically triggered on commit, but by default, it is set to `workflow_dispatch`and actionable from the `actions` page on GitHub.
-The preflight action generates a report within the repository that contains information about the adherence of the article to the submission guidelines.
+The Secret History of the Mongols (SHM) is the earliest Mongolian written primary source. Scholarship dated it to the thirteenth century CE. The SHM reveals critical insights into the Mongolian culture, historiography, and language, making it the subject of extensive academic research in several languages (e.g., Mongolian, English, Chinese, French, Russian). The increasingly large volume of academic literature analysing various aspects of the SHM makes it increasingly difficult for scholars to access all academic literature written worldwide. This research aims to combine historical methods and computational techniques to make the SHM machine-processable and, thus, machine-understandable. The parsing of the critical edition by Paul Pelliot (1949) and the English translation by Igor de Rachewiltz (2006) into an online content management system feeds an application on the Engineering Historical Memory (EHM) platform. This application allows users to access the source via the EHM tools for content search and visualisation. Each SHM’s section/story is tagged with metadata on EHM, including geographical, temporal, and story type information. This application allows the users to visualise historical information using infographics, retrieve online relevant resources automatically and in real-time, and get sentiment-analysis insights yielding concept parsing, emotion recognition, intensity ranking, and aspect extraction results. The SHM is linked to other primary sources on EHM through the Chronicles and Travel Accounts of Afro-Eurasia application. This new EHM application for the SHM showcases how computational history can manage and present research online with powerful ICT techniques and philological rigour.
 
-## Contents
-
-`article.ipynb` - This Jupyter notebook provides an example and a simple structure that authors can use to write articles for the Journal of Digital History. You can rename it according to your article name.
-
-`.github/workflows/github-actions-preflight.yml` - This workflow file contains the preflight action that can be triggered automatically on commit or manually using the workflow_dispatch event to check that the article respects the Journal guidelines.
-
-The preflight action generates or updates a report markdown file in the repository that provides information about the adherence of the article to the submission guidelines, usually named `report.md`
-
-`requirements.txt` - stores information about all the libraries, modules, and packages in itself that are used while developing a particular project.
-
-`runtime.txt` - specify the version of the runtime (e.g. the version of Python ). Have python-x.y in runtime.txt to run the repository with Python version x.y
-
-
-## Getting Started
-
-This repository it's a _template_, that is, it can be used as a starting point for new repositories.
-On GitHub.com:
-
-1. navigate to the main page of the repository.
-2. Above the file list, click Use this template.
-3. Select Create a new repository.
-4. Type a name for your new repository, and an optional description.
-5. Click Create repository from template.
-
-Please follow the rest of the documentation on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to understand how to create a new repository from this template.
-
-Use the example notebook as a template to write your article. You can modify the notebook to suit your needs and add your content.
-
-## Preflight Action
-
-To check if the article respects the Guidelines, we decided to create a `preflight` GitHub action that can be triggered automatically on commit - or manually using the `workflow_dispatch` event. The action is triggered by the `github-actions-preflight.yml` file in the `.github/workflows` folder.
-By default, the preflight action is set to `workflow_dispatch`, which means you can manually trigger it by going to the "Actions" tab in the repository, selecting the "Preflight" workflow, and clicking the "Run workflow" button.
-The preflight action will generate a report in the repository that provides information about the adherence of your article to the submission guidelines.
-
-## MyBinder
-
-The repository also contains a `requirements.txt` and a `runtime.txt` file that can be used to create a MyBinder environment. Check: https://mybinder.readthedocs.io/en/latest/using/config_files.html#preparing-a-repository-for-binder
-The MyBinder environment can be used to run the example notebook to test that the code runs smoothly. 
-
-## Contribution Guidelines
-
-We welcome contributions to this repository that aim to improve the example notebook, the preflight action, or the overall workflow for authors submitting articles to the Journal of Digital History. Just contact us or open an issue.
-
-## License
-
-Copyright (C) 2023 university of Luxembourg.
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-This program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU Affero General Public License for more details.
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
-
-We hope this repository and the provided example notebook are helpful for authors submitting articles to the Journal of Digital History. If you have any questions, feedback, or suggestions, please feel free to open an issue or contact us. Thank you for your contribution!
+# Keywords
+Secret History of the Mongols, Digital History, Engineering Historical Memory
