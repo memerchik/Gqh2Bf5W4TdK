@@ -28,7 +28,7 @@ Nanyang Technological University Singapore
 <!-- #endregion -->
 
 <!-- #region tags=["copyright"] -->
-[![cc-by](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/) 
+[![cc-by](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 ©<Tay Jun Pin - Andrea Nanetti>. Published by De Gruyter in cooperation with the University of Luxembourg Centre for Contemporary and Digital History. This is an Open Access article distributed under the terms of the [Creative Commons Attribution License CC-BY](https://creativecommons.org/licenses/by/4.0/)
 
 <!-- #endregion -->
@@ -38,13 +38,13 @@ Secret History of the Mongols, Digital History, Engineering Historical Memory
 <!-- #endregion -->
 
 <!-- #region tags=["abstract"] -->
-The Secret History of the Mongols (SHM) is the earliest Mongolian written primary source. Scholarship dated it to the thirteenth century CE. The SHM reveals critical insights into the Mongolian culture, historiography, and language, making it the subject of extensive academic research in several languages (e.g., Mongolian, English, Chinese, French, Russian). The increasingly large volume of academic literature analysing various aspects of the SHM makes it increasingly difficult for scholars to access all academic literature written worldwide. This research aims to combine historical methods and computational techniques to make the SHM machine-processable and, thus, machine-understandable. The parsing of the critical edition by Paul Pelliot (1949) and the English translation by Igor de Rachewiltz (2006) into an online content management system feeds an application on the Engineering Historical Memory (EHM) platform. This application allows users to access the source via the EHM tools for content search and visualisation. Each SHM’s section/story is tagged with metadata on EHM, including geographical, temporal, and story type information. This application allows the users to visualise historical information using infographics, retrieve online relevant resources automatically and in real-time, and get sentiment-analysis insights yielding concept parsing, emotion recognition, intensity ranking, and aspect extraction results. The SHM is linked to other primary sources on EHM through the Chronicles and Travel Accounts of Afro-Eurasia application. This new EHM application for the SHM showcases how computational history can manage and present research online with powerful ICT techniques and philological rigour. 
+The Secret History of the Mongols (SHM) is the earliest Mongolian written primary source. Scholarship dated it to the thirteenth century CE. The SHM reveals critical insights into the Mongolian culture, historiography, and language, making it the subject of extensive academic research in several languages (e.g., Mongolian, English, Chinese, French, Russian). The increasingly large volume of academic literature analysing various aspects of the SHM makes it increasingly difficult for scholars to access all academic literature written worldwide. This research aims to combine historical methods and computational techniques to make the SHM machine-processable and, thus, machine-understandable. The parsing of the critical edition by Paul Pelliot (1949) and the English translation by Igor de Rachewiltz (2006) into an online content management system feeds an application on the Engineering Historical Memory (EHM) platform. This application allows users to access the source via the EHM tools for content search and visualisation. Each SHM’s section/story is tagged with metadata on EHM, including geographical, temporal, and story type information. This application allows the users to visualise historical information using infographics, retrieve online relevant resources automatically and in real-time, and get sentiment-analysis insights yielding concept parsing, emotion recognition, intensity ranking, and aspect extraction results. The SHM is linked to other primary sources on EHM through the Chronicles and Travel Accounts of Afro-Eurasia application. This new EHM application for the SHM showcases how computational history can manage and present research online with powerful ICT techniques and philological rigour.
 <!-- #endregion -->
 
 ## Introduction
 
 
-The Secret History of the Mongols (SHM) is a native Mongolian narrative written in the 13th century, primarily documenting Chinggis Khan’s ascension (1155-1210). This primary source provides a rich insight into world history and Mongolian historiography, culture, and language life prior to and during Mongolian expansion (1211-1227). In addition, the source provides a detailed record of how the Mongolians viewed their government, social structure, and ideology. It, thus, provides a detailed description of Mongolian tribal life during the twelfth and thirteenth centuries, showcasing the concerns of the aristocracy and the relationship between chiefs and their subordinates (<cite data-cite="12908313/SZPBU37L"></cite>). This period is vital as the twelfth and thirteenth centuries showcased a paradigm shift in how Mongolian society operated as nomadic Mongolian tribes coalesced into a larger Mongolian supertribe under the leadership of Chinggis Khan (<cite data-cite="12908313/VF6L9NNS"></cite>).
+The Secret History of the Mongols (SHM) is a native Mongolian narrative written in the 13th century, primarily documenting Chinggis Khan’s ascension (1155-1210). This primary source provides a rich insight into world history and Mongolian historiography, culture, life and language  prior to and during Mongolian expansion (1211-1227). In addition, the source provides a detailed record of how the Mongolians viewed their government, social structure, and ideology. It, thus, provides a detailed description of Mongolian tribal life during the twelfth and thirteenth centuries, showcasing the concerns of the aristocracy and the relationship between chiefs and their subordinates (<cite data-cite="12908313/SZPBU37L"></cite>). This period is vital as the twelfth and thirteenth centuries showcased a paradigm shift in how Mongolian society operated as nomadic Mongolian tribes coalesced into a larger Mongolian supertribe under the leadership of Chinggis Khan (<cite data-cite="12908313/VF6L9NNS"></cite>).
 
 
 Typically, the pastoral nomadic lifestyle of the Mongols would not lead to group sizes more prominent than the tribe. In a mobile society, subordinates could decamp and ignore the authority of a leader they did not like, making it difficult for a tribal chief to obtain trans tribal control (<cite data-cite="12908313/VF6L9NNS"></cite>). As the only genuine native chronicle of Chinggis Khan’s life, SHM provides a detailed narrative of how Chinggis Khan secured the personal allegiance of other tribal chiefs (<cite data-cite="12908313/SZPBU37L"></cite>). This paper acknowledges that this Mongolian unity under Chinggis Khan was short-termed as the tribal leaders pledged allegiance to specific rulers rather than the offices held by the rulers. By Ögödei Khan’s death, the Mongol unity forged by Chinggis Khan had collapsed (<cite data-cite="12908313/VF6L9NNS"></cite>). Regardless, this period of Mongolian unity and expansion remains the most significant impact the nomadic population of inner Asia had on the sedentary world, showcasing their development and integration into the 13th century world systems.
@@ -94,7 +94,7 @@ In discerning the nature of SHM, it is imperative to acknowledge its multifacete
 <!-- #endregion -->
 
 ```python tags=["figure-1", "hermeneutics"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -114,7 +114,7 @@ Figure 1 shows how the application organises the data inputted. The text of the 
 <!-- #endregion -->
 
 <!-- #region tags=["hermeneutics"] -->
-Due to their importance, the application’s textual data uses translations by Rachewiltz and Cleaves. Cleaves’ translation is the first complete English translation of SHM, and he created his work to be linguistically faithful to the original Mongolian work (<cite data-cite="12908313/C8KZ778F"></cite>). This translation choice makes it useful for anyone looking to learn the Middle Mongolian language whilst also making it difficult for readers to understand the contents of the text. Rachewiltz’s translation is closer to modern English, making it easier for most readers to understand (<cite data-cite="12908313/SZPBU37L"></cite>). The Harvard-Yenching Institute published Cleaves’s work in 1982, leaving no digital book version. The application makes use of optical character recognition to make the text machine-readable. A digital version of Rachewiltz’s translation is available, distributed under the creative commons license, allowing us to copy it into the application quickly. As text data is unstructured, this paper applies sentiment analysis using the Sentic API to obtain information from the text, as explained below in the results section. 
+Due to their importance, the application’s textual data uses translations by Rachewiltz and Cleaves. Cleaves’ translation is the first complete English translation of SHM, and he created his work to be linguistically faithful to the original Mongolian work (<cite data-cite="12908313/C8KZ778F"></cite>). This translation choice makes it useful for anyone looking to learn the Middle Mongolian language whilst also making it difficult for readers to understand the contents of the text. Rachewiltz’s translation is closer to modern English, making it easier for most readers to understand (<cite data-cite="12908313/SZPBU37L"></cite>). The Harvard-Yenching Institute published Cleaves’s work in 1982, leaving no digital book version. The application makes use of optical character recognition to make the text machine-readable. A digital version of Rachewiltz’s translation is available, distributed under the creative commons license, allowing us to copy it into the application quickly. As text data is unstructured, this paper applies sentiment analysis using the Sentic API to obtain information from the text, as explained below in the results section.
 <!-- #endregion -->
 
 <!-- #region tags=["hermeneutics"] -->
@@ -141,14 +141,14 @@ The SHM historical content is processable using existing information technology 
 One of the critical visualisations provided by the application is HGIS. Users can visualise the information in the SHM spatially using Satellite View and OpenStreetMaps, and both spatial visualisations serve different purposes. Users can also use their existing geographical knowledge to search for sections of SHM using these applications.
 
 ```python tags=["figure-2"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
         "object": {
             "type":"image",
             "source": [
-                "figure 2: Geolocation visualised on Sattelite view"
+                "figure 2: Geolocation visualised on Satellite view"
             ]
         }
     }
@@ -156,10 +156,10 @@ metadata={
 display(Image("./media/Figure 2.png"), metadata=metadata)
 ```
 
-Figure 2 showcases the sections of SHM visualised on Sattelite view, an Earth Viewer System. Sattelite view gives high-resolution images of the Earth through photography and scanning, providing a realistic representation of the Earth (<cite data-cite="12908313/FRA6DDV3"></cite>). This visualisation allows users to understand the source spatially. Additionally, users could search for sections using a location search. As Sattelite renders a 3D representation of the Earth using satellite images, users could view the physical environment of the region reference in the text, aiding better understanding. Archaeologists have noted the Sattelite view’s ability to assist prospection and mapping in supporting spatial-temporal analysis (<cite data-cite="12908313/MLF4W5NA"></cite>). The satellite view function could aid archaeologists as it allows archaeologists to identify the anthropic activity markers for archaeological sites before heading down for fieldwork (<cite data-cite="12908313/54N98LZT"></cite>). As such, a use case of our application would be to help archaeologists scout archaeological sites referenced in SHM.
+Figure 2 showcases the sections of SHM visualised on Satellite view, an Earth Viewer System. Satellite view gives high-resolution images of the Earth through photography and scanning, providing a realistic representation of the Earth (<cite data-cite="12908313/FRA6DDV3"></cite>). This visualisation allows users to understand the source spatially. Additionally, users could search for sections using a location search. As Satellite renders a 3D representation of the Earth using satellite images, users could view the physical environment of the region reference in the text, aiding better understanding. Archaeologists have noted the Satellite view’s ability to assist prospection and mapping in supporting spatial-temporal analysis (<cite data-cite="12908313/MLF4W5NA"></cite>). The satellite view function could aid archaeologists as it allows archaeologists to identify the anthropic activity markers for archaeological sites before heading down for fieldwork (<cite data-cite="12908313/54N98LZT"></cite>). As such, a use case of our application would be to help archaeologists scout archaeological sites referenced in SHM.
 
 ```python tags=["figure-3"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -189,7 +189,7 @@ The geographical visualisation of the movements of Chinggis Khan and others woul
 Aside from HGIS, hierarchical information graphs are another critical visualisation provided by the application. Users can visualise the information in the SHM using information visualisations like Treemap Chart, Force-directed graph, and Radial Tree.
 
 ```python tags=["figure-4"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -207,7 +207,7 @@ display(Image("./media/Figure 4.png"), metadata=metadata)
 Figure 4 showcases the sections of SHM visualised on Treemap Chart. Treemap Charts is a hierarchical information graph. Treemapping displays extensive hierarchical data as a set of nested rectangles. As history is continuous and connected, hierarchical data allows users to identify the relationship between different objects (<cite data-cite="12908313/FRA6DDV3"></cite>). However, as a tool to represent spatial data, the node location does not correspond to its known geographical location, preventing users from locating areas using their geography knowledge (<cite data-cite="12908313/3ADTTMPQ"></cite>). This functionality is covered by both the satellite view and OpenStreetMap instead.
 
 ```python tags=["figure-5"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -223,7 +223,7 @@ display(Image("./media/Figure 5.png"), metadata=metadata)
 ```
 
 ```python tags=["figure-5.1"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -241,7 +241,7 @@ display(Image("./media/Figure 5.1.png"), metadata=metadata)
 Figure 5 showcases the sections of SHM visualised as a Force-directed graph. This tool displays data nodes in a 2-dimensional plane, dynamically displaying the layout converging and stabilising – allowing users to understand large-scale datasets quickly and easily (<cite data-cite="12908313/FRA6DDV3"></cite>).
 
 ```python tags=["figure-6"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -262,7 +262,7 @@ Figure 6 showcases the sections of SHM visualised as a Radial tree. A radial Tre
 ### Links to other primary sources
 
 ```python tags=["figure-7"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -283,7 +283,7 @@ Figure 7 showcases the Chronicles and Travel Accounts of Afro-Eurasia applicatio
 ### Sentiment Analysis of SHM
 
 ```python tags=["figure-8"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -298,7 +298,7 @@ metadata={
 display(Image("./media/Figure 8.png"), metadata=metadata)
 ```
 
-As the text data is unstructured, it is difficult for a computer to understand the information presented. A way to circumvent this is through Sentiment Analysis, a subset of natural language processing. This application uses Erik Cambria’s Sentic API to perform sentiment analysis. The Sentic API used by the application allows us to yield concept parsing, emotion recognition, intensity ranking, and aspect extraction results. Concept parsing identifies commonplace concepts from the text, making use of linguistic patterns and this aids in polarity classification. Polarity classification determines if the text is positive, negative or neutral. Intensity ranking then serves to rank the emotions and sentiments, allowing us to fine-tune our understanding of the intensity of each emotion. Finally, we use Emotion classification to contrast one emotion with another. Finally, aspect extraction allows us to understand each aspect’s polarity rather than the entire text and fine-tune our understanding (<cite data-cite="12908313/HQQZW22P"></cite>). 
+As the text data is unstructured, it is difficult for a computer to understand the information presented. A way to circumvent this is through Sentiment Analysis, a subset of natural language processing. This application uses Erik Cambria’s Sentic API to perform sentiment analysis. The Sentic API used by the application allows us to yield concept parsing, emotion recognition, intensity ranking, and aspect extraction results. Concept parsing identifies commonplace concepts from the text, making use of linguistic patterns and this aids in polarity classification. Polarity classification determines if the text is positive, negative or neutral. Intensity ranking then serves to rank the emotions and sentiments, allowing us to fine-tune our understanding of the intensity of each emotion. Finally, we use Emotion classification to contrast one emotion with another. Finally, aspect extraction allows us to understand each aspect’s polarity rather than the entire text and fine-tune our understanding (<cite data-cite="12908313/HQQZW22P"></cite>).
 
 
 Figure 8 showcases the Sentiment Analysis results for Section 79 of SHM. In this section, Tarqutai Kiriltuq, the leader of the Tayiči’ut tribe, attempts to capture and imprison Temüǰin after the Tayiči’ut tribe abandoned Temüǰin’s family after his father’s death (<cite data-cite="12908313/SZPBU37L"></cite>). Naturally, Temüǰin would have felt grief and rage at this development, something the application correct pointed out.
@@ -307,7 +307,7 @@ Figure 8 showcases the Sentiment Analysis results for Section 79 of SHM. In this
 ### Retrieval of relevant online sources in real-time
 
 ```python tags=["figure-9"]
-from IPython.display import Image 
+from IPython.display import Image
 metadata={
     "jdh": {
         "module": "object",
@@ -334,7 +334,7 @@ Our results have shown that information in SHM can be made machine-readable and 
 One main issue with converting written text into machine-readable text is the limitations of OCR itself. Digital historians can only apply OCR to a finite number of characters in a standard font (<cite data-cite="12908313/AB7JPJT2"></cite>). Herein lies the problem. In their search for linguistic accuracy, Cleaves has written his works in King James English (<cite data-cite="12908313/C8KZ778F"></cite>). Cleaves uses characters like ‘Γ č, š, γ Č ǰ, Š’ to convey a sound closer to the Mongolian pronunciation; these characters look similar to other English characters, giving rise to high Character Error Rates (CER). If the text's veracity is low, the results from textual analysis like sentiment analysis suffer.
 
 
-Additionally, the machine-learning sentiment analysis works by using a large corpus of affectively annotated textual data in the training phase (<cite data-cite="12908313/TQXWMD84"></cite>). However, as the application to digital history is new, the sentiment analysis API is not trained on historical data (<cite data-cite="12908313/39K436EH"></cite>). Furthermore, historical sources and datasets vary heavily in their linguistic structure as they are often translated from different languages from different periods. For example, Cleaves and Rachewiltz translated their English translations of SHM with significant variance in linguistics structure even within the same source. These considerations reduce the accuracy of sentiment analysis on digital historical primary sources. However, with more exposure to the relevant historical textual datasets as training data, the algorithm will only get more accurate. 
+Additionally, the machine-learning sentiment analysis works by using a large corpus of affectively annotated textual data in the training phase (<cite data-cite="12908313/TQXWMD84"></cite>). However, as the application to digital history is new, the sentiment analysis API is not trained on historical data (<cite data-cite="12908313/39K436EH"></cite>). Furthermore, historical sources and datasets vary heavily in their linguistic structure as they are often translated from different languages from different periods. For example, Cleaves and Rachewiltz translated their English translations of SHM with significant variance in linguistics structure even within the same source. These considerations reduce the accuracy of sentiment analysis on digital historical primary sources. However, with more exposure to the relevant historical textual datasets as training data, the algorithm will only get more accurate.
 
 
 One of the recent trends in Digital History is to produce Digital Scholarly Editions of primary historical sources . The application’s Critical editions and English translations are considered scholarly editions of SHM as Pelliot, Cleaves, and Rachewiltz have provided explanatory information in their commentaries, recorded in footnotes. By making the information machine-processable, we can create searchable and linkable connections between textual features and complement these links with infographics (<cite data-cite="12908313/AB7JPJT2"></cite>).
