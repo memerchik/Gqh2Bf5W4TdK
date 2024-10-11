@@ -2,7 +2,7 @@ on:
   pull_request:
     types:
       - closed
-name: GitHub Actions for notebook syncing
+name: GitHub Actions for notebook syncingg
 jobs:
   if_merged:
     if: github.event.pull_request.merged == true
