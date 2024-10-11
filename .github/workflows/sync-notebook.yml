@@ -1,4 +1,7 @@
-on: [workflow_dispatch]
+on:
+  pull_request:
+    types:
+      - closed
 name: GitHub Actions for notebook syncing
 jobs:
   if_merged:
