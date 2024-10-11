@@ -14,7 +14,7 @@ jobs:
       
       - name: installing & running jupytext
         run: |
-          pip install jupytext --break-system-packages
+          pip install --break-system-packages jupytext
           jupytext --set-formats ipynb,md article.ipynb
           jupytext --sync article.ipynb
 
