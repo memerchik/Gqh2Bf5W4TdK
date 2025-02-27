@@ -114,10 +114,7 @@ Invalid URL (Other - 301): https://orcid.org/sites/default/files/images/orcid_16
 > Even if some of the urls listed above don't seem to be broken, try to replace them with the valid ones as they might become unavailable soon.
 
 
-**Valid URLs (200 - 4):**
+**Valid URLs (200 - 1):**
 
-2. https://orcid.org/0000-0002-9647-6729
-3. https://orcid.org/0000-0002-3846-1254
-4. https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
-5. https://creativecommons.org/licenses/by-nc-nd/4.0/
+2. https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
 
