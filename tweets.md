@@ -1,1 +1,21 @@
-We have developed a novel computational approach to analyze the Secret History of the Mongols (SHM), a crucial 13th-century primary source. By integrating Pelliot's critical edition (1949) and de Rachewiltz's translation (2006) into a digital content management system on the Engineering Historical Memory (EHM) platform, we've created an application that enhances visualization and analysis. This tool applies sentiment analysis, facilitates real-time resource retrieval, and links to other primary sources, enabling comprehensive comparative historical analysis. Our work addresses the challenge of navigating vast, multilingual scholarship on the SHM, demonstrating how computational history can effectively manage and present research online while maintaining rigorous philological standards. This interdisciplinary approach opens new avenues for digital scholarship in historical studies and Mongolian research. #DigitalHistory #EngineeringHistoricalMemory #MongolianStudies
+Post thread:
+
+1. Main post
+
+2. Reply 1
+   
+3. Reply 2
+
+4. Reply 3
+
+5. Reply 4
+
+As independent posts:
+
+- Post 1
+
+- Post 2
+
+- Post 3
+
+- Post 4
